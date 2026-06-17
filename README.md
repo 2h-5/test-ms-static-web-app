@@ -1,3 +1,5 @@
+## Disclaimer: This is just a self practice for deployment using GitHub Pages based on this public template:
+
 ---
 page_type: sample
 languages:
