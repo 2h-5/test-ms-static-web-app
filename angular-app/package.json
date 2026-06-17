@@ -8,7 +8,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --proxy-config proxy.conf.json --open",
-    "build": "ng build --base-href /2h-5/",
+    "build": "ng build --base-href /test-ms-static-web-app/",
     "test": "ng test",
     "lint": "ng lint"
   },
