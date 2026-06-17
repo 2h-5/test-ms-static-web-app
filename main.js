@@ -169,7 +169,9 @@ class AppModule {
 (function () {
   (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵsetNgModuleScope"](AppModule, {
     declarations: [_app_component__WEBPACK_IMPORTED_MODULE_1__.AppComponent, _about_component__WEBPACK_IMPORTED_MODULE_3__.AboutComponent, _core_components_nav_component__WEBPACK_IMPORTED_MODULE_6__.NavComponent, _core_components_header_bar_component__WEBPACK_IMPORTED_MODULE_7__.HeaderBarComponent, _core_components_header_bar_brand_component__WEBPACK_IMPORTED_MODULE_8__.HeaderBarBrandComponent, _core_components_not_found_component__WEBPACK_IMPORTED_MODULE_9__.NotFoundComponent],
-    imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_12__.BrowserModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_13__.HttpClientModule, _angular_router__WEBPACK_IMPORTED_MODULE_14__.RouterModule, _store_store_module__WEBPACK_IMPORTED_MODULE_2__.AppStoreModule, _ngrx_store_devtools__WEBPACK_IMPORTED_MODULE_15__.StoreDevtoolsModule, angular_in_memory_web_api__WEBPACK_IMPORTED_MODULE_11__.HttpClientInMemoryWebApiModule]
+    imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_12__.BrowserModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_13__.HttpClientModule, _angular_router__WEBPACK_IMPORTED_MODULE_14__.RouterModule,
+    // Switch to hash routing
+    _store_store_module__WEBPACK_IMPORTED_MODULE_2__.AppStoreModule, _ngrx_store_devtools__WEBPACK_IMPORTED_MODULE_15__.StoreDevtoolsModule, angular_in_memory_web_api__WEBPACK_IMPORTED_MODULE_11__.HttpClientInMemoryWebApiModule]
   });
 })();
 
