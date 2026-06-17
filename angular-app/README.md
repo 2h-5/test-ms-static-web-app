@@ -1,3 +1,19 @@
+###### What was being added for deployment?
+
+###### 1. "build:" under "package.json" (--base-href /test-ms-static-web-app/)
+
+###### 2. Setting --> Actions/General --> Workflow permissions: Read and write permissions
+
+###### 3. "RouterModule.forRoot" under "src/app/app.module.ts" (routes, { useHash: true })
+
+###### 4. Add "deploy.yml" under ".github/workflows"
+
+###### 5. Add --> Commit --> Push
+
+###### 6. Actions --> See the workflow running
+
+###### 7. Settings --> Pages --> Source: Deploy from a branch; Branch: gh-pages
+
 # Static Web App
 
 This project was created to help represent a fundamental app written with Angular. The shopping theme is used throughout the app.
