@@ -27,7 +27,6 @@ jobs:
         run: |
           cd angular-app
           npm run build
-          cp dist/angular-app/browser/index.html dist/angular-app/browser/404.html
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
