@@ -1,5 +1,3 @@
-## Disclaimer: This is just a self practice for deployment using GitHub Pages based on this public template:
-
 ---
 page_type: sample
 languages:
@@ -10,6 +8,9 @@ products:
 description: 'Apps that can be used with as a starting point for some MS Learn Modules.'
 urlFragment: 'https://github.com/MicrosoftDocs/mslearn-staticwebapp'
 ---
+
+###### Disclaimer: This is just a self practice for deployment using GitHub Pages based on this public template:
+
 
 # Official Microsoft Sample
 
