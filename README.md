@@ -9,7 +9,7 @@ description: 'Apps that can be used with as a starting point for some MS Learn M
 urlFragment: 'https://github.com/MicrosoftDocs/mslearn-staticwebapp'
 ---
 
-###### Disclaimer: This is just a self practice for deployment using GitHub Pages based on this public template:
+###### Disclaimer: This is just a self practice for deployment using GitHub Pages based on this public template, which is on my purpose and may contains several issues, so do not treat this repo as a practice, treat the orginal one as practices. 
 
 
 # Official Microsoft Sample

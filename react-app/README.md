@@ -1,3 +1,5 @@
+###### For activate deployment, check out comments in "index.js" and "package.json", and "deploy.yml" from ".github/workflows".
+
 # Static Web App
 
 This project was created to help represent a fundamental app written with React. The shopping theme is used throughout the app.

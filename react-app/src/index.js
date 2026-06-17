@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
+// To deploy on GitHub Pages, switch to hash routing
+/*import { HashRouter as Router } from 'react-router-dom';*/
 import { applyMiddleware, compose, createStore } from 'redux';
 import createSagaMiddleware from 'redux-saga';
 import App from './App';
@@ -20,6 +22,7 @@ const store = createStore(
 
 sagaMiddleware.run(productSaga);
 
+// Change BrowserRouter to HashRouter for deployment
 ReactDOM.render(
   <Provider store={store}>
     <BrowserRouter>
