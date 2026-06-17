@@ -157,7 +157,9 @@ class AppModule {
       provide: _in_memory_data_service__WEBPACK_IMPORTED_MODULE_5__.InMemoryDataService,
       useExisting: angular_in_memory_web_api__WEBPACK_IMPORTED_MODULE_11__.InMemoryDbService
     }],
-    imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_12__.BrowserModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_13__.HttpClientModule, _angular_router__WEBPACK_IMPORTED_MODULE_14__.RouterModule.forRoot(_router__WEBPACK_IMPORTED_MODULE_0__.routes), _store_store_module__WEBPACK_IMPORTED_MODULE_2__.AppStoreModule, _build_specific__WEBPACK_IMPORTED_MODULE_4__.externalModules, angular_in_memory_web_api__WEBPACK_IMPORTED_MODULE_11__.HttpClientInMemoryWebApiModule.forRoot(_in_memory_data_service__WEBPACK_IMPORTED_MODULE_5__.InMemoryDataService, {
+    imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_12__.BrowserModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_13__.HttpClientModule, _angular_router__WEBPACK_IMPORTED_MODULE_14__.RouterModule.forRoot(_router__WEBPACK_IMPORTED_MODULE_0__.routes, {
+      useHash: true
+    }), _store_store_module__WEBPACK_IMPORTED_MODULE_2__.AppStoreModule, _build_specific__WEBPACK_IMPORTED_MODULE_4__.externalModules, angular_in_memory_web_api__WEBPACK_IMPORTED_MODULE_11__.HttpClientInMemoryWebApiModule.forRoot(_in_memory_data_service__WEBPACK_IMPORTED_MODULE_5__.InMemoryDataService, {
       dataEncapsulation: false,
       delay: 300,
       passThruUnknownUrl: true
