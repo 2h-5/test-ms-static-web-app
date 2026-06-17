@@ -20,7 +20,7 @@ import { InMemoryDataService } from './in-memory-data.service';
   imports: [
     BrowserModule,
     HttpClientModule,
-    RouterModule.forRoot(routes),
+    RouterModule.forRoot(routes, { useHash: true }),
     AppStoreModule,
     externalModules,
     HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService, {
